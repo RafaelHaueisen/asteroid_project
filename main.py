@@ -20,7 +20,7 @@ def main():
     Asteroid.containers = (asteroid_group, updatable_group, drawable_group)
     AsteroidField.containers = (updatable_group)
 
-    body_player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, PLAYER_RADIUS)
+    body_player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
     asteroid_field = AsteroidField()
     
     while True:
